@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Last Bell – VR Western for Meta Quest</title>
+<meta name="description" content="Last Bell: a Wild West VR shooter for Meta Quest. High noon. One gun. No retreat.">
+<style>
+  :root { --bg:#17110b; --fg:#f1e6d3; --muted:#bba98f; --accent:#f0c070; --card:#211810; --line:#3b2d1f; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:17px/1.65 Georgia, "Times New Roman", serif; }
+  .hero { position:relative; min-height:62vh; display:flex; align-items:flex-end; background:#000 url("kapak.jpg") center/cover no-repeat; }
+  .hero::after { content:""; position:absolute; inset:0; background:linear-gradient(to top, rgba(23,17,11,1) 0%, rgba(23,17,11,.55) 35%, rgba(0,0,0,0) 70%); }
+  .hero .in { position:relative; z-index:1; max-width:900px; margin:0 auto; width:100%; padding:24px 16px 32px; }
+  h1 { font-size:clamp(2.6rem, 8vw, 4.6rem); margin:0; letter-spacing:.06em; color:var(--accent); text-shadow:0 3px 18px rgba(0,0,0,.7); }
+  .tag { font-size:1.2rem; font-style:italic; margin:4px 0 0; }
+  .plat { display:inline-block; margin-top:14px; border:1px solid var(--accent); color:var(--accent); padding:4px 12px; border-radius:999px; font:600 .85rem/1.4 system-ui, sans-serif; letter-spacing:.05em; }
+  main { max-width:900px; margin:0 auto; padding:8px 16px 56px; }
+  h2 { color:var(--accent); font-size:1.35rem; margin:34px 0 10px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:14px; margin-top:18px; }
+  .grid img { width:100%; border-radius:10px; border:1px solid var(--line); display:block; }
+  ul.feat { padding-left:20px; }
+  ul.feat li { margin:6px 0; }
+  .lang { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px 20px; margin-top:28px; }
+  footer { border-top:1px solid var(--line); margin-top:40px; padding-top:18px; color:var(--muted); font:.92rem/1.6 system-ui, sans-serif; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="in">
+    <h1>LAST BELL</h1>
+    <p class="tag">High noon. One gun. No retreat.</p>
+    <span class="plat">VR · META QUEST</span>
+  </div>
+</header>
+<main>
+  <p>The sheriff is dead and no help is coming. When the noon bell rings, Black Jack's gang takes the town – and you are all it has left. Hold your ground in the main street, take down the outlaws as they appear on balconies, rooftops and behind crates, and spare the innocent townsfolk. Every fight ends in a duel under the clock tower: keep your hand still, listen for the bell, then draw.</p>
+
+  <div class="grid">
+    <img src="oyun1.jpg" alt="Main street of the town under the clock tower">
+    <img src="oyun2.jpg" alt="A rider looks at the smoke rising from the town">
+  </div>
+
+  <h2>Features</h2>
+  <ul class="feat">
+    <li>10 story levels and an endless mode</li>
+    <li>Quick-draw duels against 11 different gunslingers</li>
+    <li>4 weapons: dual revolvers, long-barrel revolver, Winchester rifle, double-barrel shotgun</li>
+    <li>3 difficulty levels and global leaderboards</li>
+    <li>Play standing or seated</li>
+    <li>11 languages: English, Türkçe, Español, Français, Italiano, Deutsch, Português, Русский, 中文, 日本語, 한국어</li>
+  </ul>
+
+  <section class="lang" lang="tr">
+    <h2 style="margin-top:0">Türkçe</h2>
+    <p>Şerif öldü, yardım gelmeyecek. Öğlen çanı çaldığında Kara Jack'in çetesi kasabayı alacak ve kasabada bir tek sen kaldın. Ana caddede yerini koru, balkonlardan, çatılardan ve sandıkların arkasından çıkan haydutları vur, masum kasabalıları koru. Her çatışma saat kulesinin altında bir düelloyla biter: elini kıpırdatma, çanı dinle, sonra çek.</p>
+  </section>
+
+  <footer>
+    <p>Contact / İletişim: <a href="mailto:lastbell.oyun@gmail.com">lastbell.oyun@gmail.com</a></p>
+    <p><a href="gizlilik.html">Privacy Policy / Gizlilik Politikası</a></p>
+  </footer>
+</main>
+</body>
+</html>
